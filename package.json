@@ -1,0 +1,25 @@
+{
+  "name": "sandbox-dotenv-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sample1": "dotenv -e .env.local node sample.js",
+    "sample2": "dotenv -c -e .env.local node sample.js",
+    "sample3": "dotenv -c .env -c .env.local node sample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mtb-beta/sandbox-dotenv-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtb-beta/sandbox-dotenv-cli/issues"
+  },
+  "homepage": "https://github.com/mtb-beta/sandbox-dotenv-cli#readme",
+  "devDependencies": {
+    "dotenv-cli": "^7.0.0"
+  }
+}
